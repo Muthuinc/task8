@@ -14,8 +14,8 @@ echo " <body>
 touch Dockerfile
 
 echo "FROM ubuntu" > Dockerfile
-echo "apt update -y " >> Dockerfile
-echo "apt install nginx -y " >> Dockerfile
+echo "RUN apt update -y " >> Dockerfile
+echo "RUN apt install nginx -y " >> Dockerfile
 echo "COPY index.html /var/www/html" >> Dockerfile
 echo '["nginx", "-g", "daemon off;"]' >> Dockerfile
 
