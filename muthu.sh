@@ -29,14 +29,14 @@ docker build -t muthuinc/mycustom:latest .
 
 # pushing that to the repository
 
-docker login -u muthuinc -p $password
+docker login -u muthuinc -p 
 docker push muthuinc/mycustom:latest
 
 # running the container
 
 docker run -dp 80:80 --name ownpage muthuinc/mycustom:latest
 
-if curl localhost:8080
+if curl localhost:80
 then 
   echo "successfully built"
 else
