@@ -29,7 +29,7 @@ docker build -t muthuinc/mycustom:latest .
 
 # pushing that to the repository
 
-docker login -u muthuinc -p 
+docker login -u muthuinc -p $password
 docker push muthuinc/mycustom:latest
 
 # running the container
