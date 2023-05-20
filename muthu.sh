@@ -45,5 +45,5 @@ fi
 
 docker ps
 
-echo " !!!!succeeded !!!! "
+echo " !!!!succeeded the email verification!!!! "
 
