@@ -5,6 +5,8 @@ Web hook made. as you see the file firstpush.txt, build triggered automatically 
 
 In the second push i configured the email. output email has been sent to my tutor. he acknowledged it.
 
+i did forget to add the webhook picture. the webhook is still present.
+
 
 
 # task9 
